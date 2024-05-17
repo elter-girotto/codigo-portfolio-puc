@@ -1,0 +1,26 @@
+-------
+Livros:
+-------
+Solid para Ninjas - Mauricio Aniche
+Refactoring - Martin Fowler
+
+------
+Links:
+------
+Site Mario Souto: Aula 2 - partes 1 e 2
+https://omariosouto.github.io/pucpos-code/a2b1/02-browser/index.html
+
+History API MDN:
+https://developer.mozilla.org/en-US/docs/Web/API/History
+
+MDN Web Docs - Documentação frontend:
+https://developer.mozilla.org/pt-BR/
+
+-----
+Dicas:
+------
+! (exclamação) + ENTER -> gera documento hmtl
+
+- Quokka - Extensão que ajuda a visualizar o resultado do código em tempo real
+
+- github copilot - Ferramenta de IA que auxilia usuários no ambiente de desenvolvimento

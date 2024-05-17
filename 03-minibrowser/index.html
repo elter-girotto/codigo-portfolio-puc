@@ -1,0 +1,52 @@
+<!--
+<main>
+    <header>
+        <div class="close-area"></div>
+        <input placeholder="https://..." value="https://mariosouto.com" />
+    </header>
+    <iframe src="https://mariosouto.com"></iframe>
+</main>
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Browser experimental</title>
+</head>
+<body>
+    
+
+<script>
+    //Objetos representados por múltiplos atributos
+    var aba1 = {
+        titulo: 'Titulo da aba1',
+        url: 'https://omariosouto.github.io/pucpos-code/a2b1/02-browser/index.html',
+    };
+    var aba2 = {
+        titulo: 'Titulo da aba2',
+        url: 'https://www.ironmaiden.com/',
+    };
+
+    // [ENTRADA]
+    // Arrays: Lista de coisas
+    const abas = [
+        aba1,
+        aba2
+    ];
+
+    // [PROCESSAMENTO]
+    for (aba of abas) {
+        console.log(aba.titulo);        
+        // [SAIDA]
+        var valorAtualHTML = document.body.innerHTML;        
+        document.body.innerHTML = valorAtualHTML + `<li><a href="${aba.url}">${aba.titulo}</a></li>`;
+    }
+    
+</script>
+
+<!--<link rel="stylesheet" href="./style.css" />-->
+</body>
+</html>
