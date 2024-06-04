@@ -1,11 +1,11 @@
 var pessoa = {
     nome: "Valentina",
     idade: 60,
-    saudar: function() {
-        console.log("olá");
+    saudar: function(nomeDoAmigo) {
+        console.log("olá " + nomeDoAmigo);
     }
 };
 
-pessoa.saudar();
+pessoa.saudar("Carlos");
 pessoa.idade = 30;
 console.log("Nova idade atribuída: " + pessoa.idade);
